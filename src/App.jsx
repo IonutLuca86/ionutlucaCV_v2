@@ -9,7 +9,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { AnimatePresence, motion } from 'framer-motion';
-import { BrowserRouter as Router,Route,Routes, useLocation } from 'react-router-dom'
+import { HashRouter as Router,Route,Routes, useLocation } from 'react-router-dom'
 import PropTypes from 'prop-types';
 
 
