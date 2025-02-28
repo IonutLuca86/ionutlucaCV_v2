@@ -21,10 +21,11 @@
                 animate={{ opacity: 0.7 }} 
                 transition={{ duration: 0.5, ease: "easeInOut", delay: 0.1 }} />
                 Full-Stack Developer <span className='text-gray fs-md'>(LIA Internship)</span></h4>
-            <h5 className='text-blue'>Ahum AB <span className='text-gray fs-sm fst-italic'>Stockholm, Sweden | Apr 2024 – May 2024</span></h5>
-            <h6 className='text-yellow'>Key Achievements:</h6>
+            <h5><a href="https://www.ahum.se/?gad_source=1&gclid=Cj0KCQiA2oW-BhC2ARIsADSIAWqp0tw52qfJqGBEIxsaN5SDlTTEA9qedAkcDTT6KCNsKBTST1dpbvIaAhsIEALw_wcB" target="_blank" rel="noopener noreferrer" 
+                    className='text-yellow link-to me-3'>Ahum AB</a><span className='text-gray fs-sm fst-italic'>Stockholm, Sweden | Apr 2024 – May 2024</span></h5>
+            <h6 className='text-blue'>Key Achievements:</h6>
             <p className='text-gray ms-4'>•	Developed a user-generated comment management system, improving data organization and visibility.</p>
-            <h6 className='text-yellow'>Responsibilities:</h6>
+            <h6 className='text-blue'>Responsibilities:</h6>
             <p className='text-gray ms-4'>•	Implemented dynamic content display and storage logic in a .NET-based application.</p>
             <p className='text-gray ms-4'>•	Enhanced data retrieval efficiency using C#/.NET for backend and JavaScript for frontend.</p>
         </div>
@@ -35,11 +36,12 @@
                 animate={{ opacity: 0.7 }} 
                 transition={{ duration: 0.5, ease: "easeInOut", delay: 0.1 }} />
                 .NET Backend Developer <span className='text-gray fs-md'>(LIA Internship)</span></h4>
-            <h5 className='text-blue'>BildHistoria Association <span className='text-gray fs-sm fst-italic'>Stockholm, Sweden | Sep 2023 – Apr 2024</span></h5>
-            <h6 className='text-yellow'>Key Achievements:</h6>
+            <h5><a href="https://bildhistoria.se/" target="_blank" rel="noopener noreferrer" 
+                    className='text-yellow link-to me-3'>BildHistoria Association</a><span className='text-gray fs-sm fst-italic'>Stockholm, Sweden | Sep 2023 – Apr 2024</span></h5>
+            <h6  className='text-blue'>Key Achievements:</h6>
             <p className='text-gray ms-4'>•	Designed an image upload and validation system handling large CSV imports, ensuring 99% data accuracy.</p>
             <p className='text-gray ms-4'>•	Developed a C# console app that automated CSV data processing, reducing manual workload by 80%.</p>
-            <h6 className='text-yellow'>Responsibilities:</h6>
+            <h6  className='text-blue'>Responsibilities:</h6>
             <p className='text-gray ms-4'>•	Created Swagger API endpoints for image uploads and validation.</p>
             <p className='text-gray ms-4'>•	Integrated Azure Blob Storage for scalable image storage.</p>
             <p className='text-gray ms-4'>•	Built backend functionality using C#/.NET, Docker, and Azure to improve platform performance.</p>
