@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { process } from 'dotenv';
 import emailjs from '@emailjs/browser'
 import { MdEmail,MdOutlinePhoneIphone } from "react-icons/md";
 import { FaGithub,FaLinkedin  } from "react-icons/fa6";

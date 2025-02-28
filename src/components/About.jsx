@@ -2,6 +2,7 @@ import me from '../assets/me.png'
 import { motion } from 'framer-motion'
 import './About.css'
 import { FaCheck } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 export default function About() {
     return(
@@ -60,9 +61,9 @@ export default function About() {
                 </div>
                
                 <p className='mt-4'>Don&apos;t forget to check out my 
-                    <a href="/work" className='text-yellow mx-2 link-to'>work experience</a>, 
-                    <a href="/skills" className='text-yellow mx-2 link-to'>skills</a>, and 
-                    <a href="/projects" className='text-yellow mx-2 link-to'>projects</a> if I have caught your interest!</p>
+                    <Link to="/work" className='text-yellow mx-2 link-to'>work experience</Link>, 
+                    <Link to="/skills" className='text-yellow mx-2 link-to'>skills</Link>, and 
+                    <Link to="/projects" className='text-yellow mx-2 link-to'>projects</Link> if I have caught your interest!</p>
             </div>
             </div>
             
