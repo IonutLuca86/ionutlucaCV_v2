@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: 'Ubuntu', monospace,Helvetica, Arial, sans-serif !important;
+  font-variant-ligatures: none;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #D4D4D4;
+  
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  
+    background: #16222A;  
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  
+    background: linear-gradient(to right, #3A6073, #16222A); 
+        
+
+}
+
+.text-orange{
+  color: #FFA500;
+}
+.text-blue{
+  color: #569CD6;
+}
+.text-yellow{
+  color:#FFD700;
+}
+.text-green{
+  color :#B5CEA8;
+}
+.text-darkg{
+  color: #6A9955;
+}
+.text-gray{
+  color: #D4D4D4;
+}
+.bold{
+  font-weight: 800;
+}
+.fst-italic{
+  font-style: italic !important;
+}
+.fst-courier{
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 600;
+}

@@ -1,0 +1,44 @@
+.navbar{
+    width: 100%;
+    margin: auto;
+}
+
+.navBtn{
+    font-weight: 600;
+    font-size: large;    
+}
+
+.navBtn:hover, 
+.phone:hover, 
+.media-icon:hover{
+    transform: scale(1.1);
+}
+
+.footer{
+    border-top: 2px solid white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.phone{
+    color: #D4D4D4;
+    text-decoration: none;
+    display: inline-block;
+}
+.phone:visited{
+    text-decoration: none;
+    color: initial;
+}
+.media-icon{
+    display: inline-block;
+}
+.nav-container{
+    border-bottom: 2px solid white;
+}
+.navbar-toggler {
+    border-color: white !important; 
+  }
+  
+.navbar-toggler-icon {
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
