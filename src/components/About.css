@@ -51,12 +51,14 @@
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
   }
   
+  .worker-img{
+    width: 20vw;
+    height: auto;
+  }
+
 @media screen and (max-width: 800px) {
     .job{
         width: 5vw;
-    }
-    .steve{
-        width: 8vw;
     }
     .project-img{
         width: 30vw;
