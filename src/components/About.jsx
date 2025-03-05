@@ -3,8 +3,12 @@ import { motion } from 'framer-motion'
 import './About.css'
 import { FaCheck } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function About() {
+
+    const {t} = useTranslation();
+
     return(
         <div className="container d-flex flex-column flex-lg-row justify-content-between align-items-center my-5 py-5">
             <div className='d-flex flex-row justify-content-center align-item-center'>
@@ -14,56 +18,47 @@ export default function About() {
                     transition={{ duration: 0.5, ease: "easeInOut", delay: 0.1 }} />
             </div>
             <div className='d-flex flex-column justify-content-between align-item-center mt-5 mt-lg-0 ms-lg-2'>
-            <h1 className='text-orange'>More About Me</h1>
+            <h1 className='text-orange'>{t('about.title')}</h1>
             <div>
-                <p>My name is <h4 className='text-orange d-inline'>Ionut Luca</h4> and I am a 
-                    passionate <span className='text-green fs-lg'>Junior Software Developer</span> with 
-                    experience in <span  className='text-green fs-lg'>.NET, Python</span>, and 
-                    <span  className='text-green fs-lg'> JavaScript</span>. </p>
-                 <p>Ever since I started coding, I have been fascinated by the power of technology 
-                    to solve real-world problems and create meaningful digital experiences.</p>
+                <p>{t('about.name-front')}<h4 className='text-orange d-inline'>{t('about.name')}</h4>
+                {t('about.name-after')}<span className='text-green fs-lg'>{t('about.function')}</span>
+                {t('about.function-after')} <span  className='text-green fs-lg'>{t('about.specs1')}</span>
+                {t('about.and')}<span  className='text-green fs-lg'>{t('about.specs2')}</span>. </p>
+                 <p>{t('about.aboutme1')}</p>
 
-                <p>In 2024, I graduated from 
+                <p>{t('about.aboutme2')} 
                     <a href="https://www.iths.se/" target="_blank" rel="noopener noreferrer" 
-                    className='text-yellow mx-2 link-to'>IT-Högskolan</a> the .NET Developer program, 
-                    and have since deepened my expertise through hands-on experience and industry 
-                    certifications.My journey into software development has been driven by curiosity,
-                    a love for learning, and a strong desire to build scalable, efficient applications.
+                    className='text-yellow mx-2 link-to'>IT-Högskolan</a>{t('about.aboutme3')}
                     </p>
-                <p>I thrive in collaborative, Agile environments where I can apply my 
-                    problem-solving skills while continuously growing as a developer. 
-                    Whether it is about designing a robust backend, creating seamless user 
-                    interfaces, or integrating diverse components into a cohesive system, I take 
-                    pride in writing clean, maintainable code that adds real value.
+                <p>{t('about.aboutme4')}
                     </p>
-                <p>I am always on the lookout for exciting opportunities where I can apply my skills,
-                     tackle new challenges, and grow within a dynamic team. </p>
+                <p>{t('about.aboutme5')}</p>
                
                 <div className='d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-start mt-4 ps-lg-5'>                    
                         <div className='mb-sm-4'>
-                        <h4 className='text-green fs-md'>Professional Strengths:</h4>
+                        <h4 className='text-green fs-md'>{t('about.strengths-title')}</h4>
                         <div className='ms-4'>
-                            <p className='text-gray fs-sm'><FaCheck className='mx-2'/>Problem-Solving & Analytical Thinking</p>
-                            <p className='text-gray fs-sm'><FaCheck className='mx-2'/>Collaboration & Teamwork</p>
-                            <p className='text-gray fs-sm'><FaCheck className='mx-2'/>Adaptability & Continuous Learning</p>
-                            <p className='text-gray fs-sm'><FaCheck className='mx-2'/>Attention to Details & Quality Focus</p>
-                            <p className='text-gray fs-sm'><FaCheck className='mx-2'/>Self-motivation and Initiative</p>
+                            <p className='text-gray fs-sm'><FaCheck className='mx-2'/>{t('about.strength1')}</p>
+                            <p className='text-gray fs-sm'><FaCheck className='mx-2'/>{t('about.strength2')}</p>
+                            <p className='text-gray fs-sm'><FaCheck className='mx-2'/>{t('about.strength3')}</p>
+                            <p className='text-gray fs-sm'><FaCheck className='mx-2'/>{t('about.strength4')}</p>
+                            <p className='text-gray fs-sm'><FaCheck className='mx-2'/>{t('about.strength5')}</p>
                         </div> 
                         </div>
                         <div className='pe-lg-4'>
-                            <h4 className='text-green fs-md'>Languages:</h4>
+                            <h4 className='text-green fs-md'>{t('about.languages-title')}</h4>
                             <div className='ms-4'>
-                                <p className='text-orange fs-md'>English: <span className='text-gray'>Fluent</span></p>
-                                <p className='text-orange fs-md'>Swedish: <span className='text-gray'>Professional level</span></p>
-                                <p className='text-orange fs-md'>Romanian: <span className='text-gray'>Native</span></p>
+                                <p className='text-orange fs-md'>{t('about.lang1')}<span className='text-gray'>{t('about.lang1-level')}</span></p>
+                                <p className='text-orange fs-md'>{t('about.lang2')}<span className='text-gray'>{t('about.lang2-level')}</span></p>
+                                <p className='text-orange fs-md'>{t('about.lang3')}<span className='text-gray'>{t('about.lang3-level')}</span></p>
                             </div>
                         </div>                                   
                 </div>
                
-                <p className='mt-4'>Don&apos;t forget to check out my 
-                    <Link to="/work" className='text-yellow mx-2 link-to'>work experience</Link>, 
-                    <Link to="/skills" className='text-yellow mx-2 link-to'>skills</Link>, and 
-                    <Link to="/projects" className='text-yellow mx-2 link-to'>projects</Link> if I have caught your interest!</p>
+                <p className='mt-4'>{t('about.aboutme6')}
+                    <Link to="/work" className='text-yellow mx-2 link-to'>{t('about.link1')}</Link>, 
+                    <Link to="/skills" className='text-yellow mx-2 link-to'>{t('about.link2')}</Link>{t('about.and')}
+                    <Link to="/projects" className='text-yellow mx-2 link-to'>{t('about.link3')}</Link>{t('about.aboutme7')}</p>
             </div>
             </div>
             

@@ -1,0 +1,244 @@
+{
+    "navbar":{
+        "home": "Hem",
+        "about": "Om mig",
+        "work": "Arbetslivserfarenhet",
+        "skills": "Färdigheter & Utbildning",
+        "projects": "Projekt",
+        "contact": "Kontakt"
+    },
+    "home": {
+    "greeting": "Hej",
+    "greeting1": "Världen!",
+    "greeting2": "Rekryterare!",
+    "greeting3": "Utvecklare!",
+    "greeting4": "Du!",
+    "greeting5": "Alla!",
+    "name": "Ionut Luca",
+    "front_name": "Jag är ",
+    "title": "Junior mjukvaruutvecklare",
+    "specialization": "Specialiserad på .NET, JavaScript, Python och mer",
+    "description1": "Letar du efter en skicklig och motiverad utvecklare?",
+    "description2": "Utforska mina färdigheter, projekt och arbetslivserfarenhet. Kanske är vi en match!",
+    "download-text1": "Alternativt kan du",
+    "download-text2": "mitt CV",
+    "download-link-text": "ladda ner"
+    },
+    "about": {
+    "title": "Mer om mig",
+    "name-front": "Mitt namn är ",
+    "name": "Ionut Luca",
+    "name-after": " och jag är en passionerad ",
+    "function": "Junior Software Developer",
+    "function-after": " med erfarenhet av ",
+    "specs1": ".NET, Python",
+    "and": " och ",
+    "specs2": "JavaScript",
+    "aboutme1": "Ända sedan jag började programmera har jag varit fascinerat av teknikens kraft att lösa verkliga problem och skapa meningsfulla digitala upplevelser.",
+    "aboutme2": "År 2024 tog jag examen från",
+    "aboutme3": " - .NET Utvecklare programmet och har sedan dess fördjupat min expertis genom praktisk erfarenhet och branschcertifieringar. Min resa inom mjukvaruutveckling har drivits av nyfikenhet, en drivkraft att ständigt utvecklas och en stark vilja att bygga skalbara, effektiva applikationer.",
+    "aboutme4": "Jag trivs i samarbetsinriktade, Agile-miljöer där jag får använda mina problemlösningsförmågor samtidigt som jag kontinuerligt utvecklas som utvecklare. Oavsett om det handlar om att designa en robust backend, skapa sömlösa användargränssnitt eller integrera olika komponenter till ett sammanhängande system, är jag stolt över att skriva ren, underhållbar kod som tillför verkligt värde.",
+    "aboutme5": "Jag letar alltid efter spännande möjligheter där jag kan tillämpa mina färdigheter, anta nya utmaningar och växa inom ett dynamiskt team.",
+    "strengths-title": "Professionella styrkor:",
+    "strength1": "Problemlösning & analytiskt tänkande",
+    "strength2": "Samarbete & teamwork",
+    "strength3": "Anpassningsförmåga & kontinuerligt lärande",
+    "strength4": "Noggrannhet & kvalitetsfokus",
+    "strength5": "Självständighet & initiativförmåga",
+    "languages-title": "Språk:",
+    "lang1": "Engelska: ",
+    "lang1-level": "Flytande",
+    "lang2": "Svenska: ",
+    "lang2-level": "Mycket goda kunskaper",
+    "lang3": "Rumänska: ",
+    "lang3-level": "Modersmål",
+    "aboutme6": "Glöm inte att kolla in min ",
+    "aboutme7": " om jag har fångat ditt intresse!",
+    "link1": "arbetslivserfarenhet",
+    "link2": "färdigheter",
+    "link3": "projekt"
+    },
+    "work": {
+        "title": "Arbetslivserfarenhet",
+        "achievements": "Viktiga prestationer:",
+        "responsibilities": "Uppgifter:",
+        "jobs": [
+        {
+            "title": "Fullstackutvecklare",
+            "type": "(LIA-praktik)",
+            "company": "Ahum AB",
+            "companyLink": "https://www.ahum.se/",
+            "location": "Stockholm, Sverige",
+            "duration": "Apr 2024 – Maj 2024",
+            "achievements": [
+            "Utvecklade ett hantering system för användargenererade kommentarer, vilket förbättrade datakvalitetet och organiseringen."
+            ],
+            "responsibilities": [
+            "Implementerade dynamisk innehållsvisning och lagringslogik i en .NET-baserad applikation.",
+            "Förbättrade databehandling med C#/.NET för backend och JavaScript för frontend."
+            ]
+        },
+        {
+            "title": ".NET Backendutvecklare",
+            "type": "(LIA-praktik)",
+            "company": "BildHistoria Förening",
+            "companyLink": "https://bildhistoria.se/",
+            "location": "Stockholm, Sverige",
+            "duration": "Sep 2023 – Apr 2024",
+            "achievements": [
+            "Implementerade bilduppladdnings och data validerings funktioner från stora CSV-importer, vilket säkerställde 99% datakvalitet.",
+            "Utvecklade en C#-konsolapplikation som automatiserade CSV-databehantering från gamla platformen och minskade manuellt arbete med 80%."
+            ],
+            "responsibilities": [
+            "Skapade Swagger API-endpoints för bilduppladdningar och validering.",
+            "Integrerade Azure Blob Storage för skalbar bildlagring.",
+            "Byggde backend-funktionalitet med C#/.NET, Docker och Azure för att förbättra plattformsprestanda."
+            ]
+        },
+        {
+            "title": "IT-supporttekniker, Maskinoperatör & Lagerarbetare",
+            "type": "",
+            "company": "",
+            "location": "Stockholm, Sverige & Iasi, Rumänien",
+            "duration": "Före Sep 2022",
+            "achievements": [
+            "Fick erfarenhet av teknisk felsökning och kundsupport som IT-supporttekniker.",
+            "Arbetade som tung maskinoperatör och utvecklade problemlösningsförmåga samt uppmärksamhet på detaljer i högprecisionsuppgifter.",
+            "Fick praktisk erfarenhet av logistik och teamwork som lagerarbetare och säkerställde effektiv lagerhantering och orderhantering."
+            ],
+            "responsibilities": []
+        }
+        ]
+    },
+
+    "skills": {
+        "title": "Färdigheter & Verktyg",
+        "info": "Hovra över ikonerna, de flesta erbjuder mer information!",
+        "category1": "Programmeringsspråk:",
+        "category2": "Ramverk & Bibliotek:",
+        "category3": "Databaser:",
+        "category4": "Moln & DevOps:",
+        "category5": "Webbutveckling & APIer:",
+        "category6": "Utvecklingsmetoder:",
+        "category7": "Verktyg & Teknologier:",
+        "basic": "grundläggande nivå",
+        "framework": "ramverk för RESTful API"
+    },
+    "certificates": {
+        "title": "Certifikat",
+        "certificate": [
+            {
+                "title": "IBM Full Stack Developer Professional Certificate",
+                "issued_by": "IBM & Coursera",
+                "description": "Täcker JavaScript, HTML, CSS för frontend och Python för backendutveckling.",
+                "diploma": "Certifikat",
+                "diploma_link": "https://coursera.org/share/64aa30aa3bc8bb2397571249467b39f6",
+                "badge": "Märke",
+                "badge_link": "https://www.credly.com/badges/6dccd3e4-dec2-42b3-be6d-a743c1d59c0a/public_url"
+            },
+            {
+                "title": "META Backend Developer Certificate",
+                "issued_by": "META & Coursera",
+                "description": "Täcker JavaScript, HTML, CSS för frontend och Python för backendutveckling.",
+                "diploma": "Certifikat",
+                "diploma_link": "https://coursera.org/share/80e8c2180c49bc4aa43af9928a5f017a",
+                "badge": "Märke",
+                "badge_link": "https://www.credly.com/badges/10ce5f0d-0417-494b-86f5-3b454c98b08d/public_url"
+            },
+            {
+                "title": "Microsoft Foundational C#",
+                "issued_by": "Microsoft & freeCodeCamp",
+                "description": "Täcker grundläggande C#-koncept, syntax och objektorienterade programmeringsprinciper.",
+                "diploma": "Certifikat",
+                "diploma_link": "https://www.freecodecamp.org/certification/ionutluca/foundational-c-sharp-with-microsoft"
+            },
+            {
+                "title": "MongoDB C# Developer Path",
+                "issued_by": "MongoDB",
+                "description": "Ger praktisk erfarenhet av MongoDB och C#-integration för att bygga skalbara applikationer."
+            },
+            {
+                "title": "Certifiering i Relationsdatabaser",
+                "issued_by": "freeCodeCamp",
+                "description": "Täcker SQL-frågor, databasedesign och normaliseringstekniker.",
+                "diploma": "Certifikat",
+                "diploma_link": "https://www.freecodecamp.org/certification/ionutluca/relational-database-v8"
+            },
+            {
+                "title": ".NET Full Stack Developer",
+                "issued_by": "Board Infinity & Coursera",
+                "description": "Täcker fullstack-utveckling med ASP.NET MVC, Blazor, React och JavaScript.",
+                "diploma": "Certifikat",
+                "diploma_link": "https://coursera.org/share/495e6275824a8589eae1163967018dc0"
+            },
+            {
+                "title": "Frontendutveckling",
+                "issued_by": "Scrimba & Coursera",
+                "description": "Fokuserar på frontend-utveckling med HTML, CSS och JavaScript.",
+                "diploma": "Certifikat",
+                "diploma_link": "https://coursera.org/share/ef5d2661d84709184fcd48c6adbe9970"
+            }
+        ],
+        "more": "Fler certifieringar finns på min",
+        "profile": "LinkedIn-profil"
+    },
+    "education": {
+        "title": "Utbildning",
+        "name": ".NET-utvecklare",
+        "type": "(Yrkeshögskoleexamen)",
+        "date": "Sep 2022 - Maj 2024",
+        "description1": "Fokuserad på utveckling av mjukvara, applikationer eller webbapplikationer med C#, .NET, JavaScript, SQL och MongoDB.",
+        "description2": "Praktisk erfarenhet av fullstack-utveckling och Agile (Scrum)."
+    },
+    "projects": {
+        "title": "Projekt",
+        "project": [
+            {
+                "name": "Great Reads Databas",
+                "sub_title": "Fullstack webbplattform för bokrecensioner",
+                "tech": "Teknikstack: C#, .NET (Blazor och REST API), React, SQL, Docker-containrar.",
+                "description1": "Byggde en fullstack-webbapplikation med ett RESTful API och två användarvänliga gränssnitt: ett för administratörer (byggt med Blazor) för innehålls- och databashantering, och ett för klientinteraktion (byggt med React/JavaScript).",
+                "description2": "Appen gör det möjligt för administratörer att utföra CRUD-operationer för att hantera databasens innehåll. Klienter kan lägga till, ändra och ta bort böcker och bokrecensioner efter en lyckad registrering/inloggning.",
+                "github_link": "https://github.com/IonutLuca86/GreatReadsDatabase",
+                "image_link": "grdb",
+                "alt": "GreatReadsDatabase projektförhandsvisning",
+                "isOpen": "isOpenGRDB",
+                "setOpen": "setIsOpenGRDB"
+            },
+            {
+                "name": "Little Lemon Restaurang",
+                "sub_title": "Django-baserad restaurangwebbapp",
+                "tech": "Teknikstack: Python, Django, MySQL, HTML/CSS",
+                "description1": "Utvecklade en webbapplikation med hantering av bokningar, menyuppdateringar och beställningar.",
+                "description2": "Anställda kan hantera bokningar, uppdatera restaurangens meny och kunder kan reservera bord eller beställa menyartiklar.",
+                "github_link": "https://github.com/IonutLuca86/littlelemon",
+                "image_link": "littlelemon",
+                "alt": "LittleLemon projektförhandsvisning",
+                "isOpen": "isOpenLL",
+                "setOpen": "setIsOpenLL"
+            }
+        ],
+        "more": "Fler projekt finns på min",
+        "profile": "GitHub-profil"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "intro": "Jag uppskattar din tid och ditt intresse för mitt arbete. Om du har några frågor, möjligheter, tips eller bara vill komma i kontakt, tveka inte att höra av dig. Du kan göra det genom att använda länkarna här nedanför eller skicka mig ett direktmeddelande!",
+        "phone": "Telefonnummer:",
+        "email": "E-postadress:",
+        "profile": "Profil",
+        "second_intro": "Ser fram emot att höra från dig!",
+        "success_msg1": "Tack för ditt meddelande!",
+        "success_msg2": "Jag återkommer till dig inom kort.",
+        "your_name": "Ditt namn:",
+        "your_email": "Din e-post:",
+        "your_message": "Ditt meddelande:",
+        "send": "Skicka",
+        "outro": "Tack för att du besökte min webbplats!"
+    },
+    "footer": {
+        "rights": "Alla rättigheter reserverade."
+        }
+
+
+}

@@ -1,0 +1,243 @@
+{
+    "navbar":{
+        "home": "Home",
+        "about": "About",
+        "work": "Work Experience",
+        "skills": "Skills & Education",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "home":{
+        "greeting":"Hello",
+        "greeting1": "World!",
+        "greeting2": "Recruiter!",
+        "greeting3": "Developer!",
+        "greeting4": "You!",
+        "greeting5": "Everyone!",
+        "name": "Ionut Luca",
+        "front_name": "I am",
+        "title": "Junior Software Developer",
+        "specialization": "Specialized in .NET, JavaScript, Python and more",
+        "description1": "Looking for a skilled and motivated developer?",
+        "description2": "Explore my skills, projects and work experience and maybe we are a match!",
+        "download-text1": "Alternatively, you can",
+        "download-text2": "my resume",
+        "download-link-text": "download" 
+    },
+    "about":{
+        "title": "More About Me",
+        "name-front": "My name is ",
+        "name":"Ionut Luca",
+        "name-after": " and I am a passionate ",
+        "function": "Junior Software Developer",
+        "function-after": " with experience in ",
+        "specs1": ".NET, Python",
+        "and": ", and ",
+        "specs2": "JavaScript",
+        "aboutme1": "Ever since I started coding, I have been fascinated by the power of technology to solve real-world problems and create meaningful digital experiences.",
+        "aboutme2": "In 2024, I graduated from ",
+        "aboutme3": "the .NET Developer program, and have since deepened my expertise through hands-on experience and industry certifications. My journey into software development has been driven by curiosity, a love for learning, and a strong desire to build scalable, efficient applications.",
+        "aboutme4": "I thrive in collaborative, Agile environments where I can apply my problem-solving skills while continuously growing as a developer. Whether it is about designing a robust backend, creating seamless user interfaces, or integrating diverse components into a cohesive system, I take pride in writing clean, maintainable code that adds real value.",
+        "aboutme5": "I am always on the lookout for exciting opportunities where I can apply my skills, tackle new challenges, and grow within a dynamic team.",
+        "strengths-title": "Professional Strengths:",
+        "strength1": "Problem-Solving & Analytical Thinking",
+        "strength2": "Collaboration & Teamwork",
+        "strength3": "Adaptability & Continuous Learning",
+        "strength4": "Attention to Details & Quality Focus",
+        "strength5": "Self-motivation and Initiative",
+        "languages-title": "Languages:",
+        "lang1": "English: ",
+        "lang1-level": "Fluent",
+        "lang2": "Swedish: ",
+        "lang2-level": "Professional level",
+        "lang3": "Romanian: ",
+        "lang3-level": "Native",
+        "aboutme6": "Don&apos;t forget to check out my ",
+        "aboutme7": " if I have caught your interest!",
+        "link1": "work experience",
+        "link2": "skills",
+        "link3": "projects"
+    },
+        "work": {
+        "title": "Work Experience",
+        "achievements": "Key Achievements:",
+        "responsibilities": "Responsibilities:",
+        "jobs": [
+        {
+            "title": "Full-Stack Developer",
+            "type": "(LIA Internship)",
+            "company": "Ahum AB",
+            "companyLink": "https://www.ahum.se/",
+            "location": "Stockholm, Sweden",
+            "duration": "Apr 2024 – May 2024",
+            "achievements": [
+            "Developed a user-generated comment management system, improving data organization and visibility."
+            ],
+            "responsibilities": [
+            "Implemented dynamic content display and storage logic in a .NET-based application.",
+            "Enhanced data retrieval efficiency using C#/.NET for backend and JavaScript for frontend."
+            ]
+        },
+        {
+            "title": ".NET Backend Developer",
+            "type": "(LIA Internship)",
+            "company": "BildHistoria Association",
+            "companyLink": "https://bildhistoria.se/",
+            "location": "Stockholm, Sweden",
+            "duration": "Sep 2023 – Apr 2024",
+            "achievements": [
+            "Designed an image upload and validation system handling large CSV imports, ensuring 99% data accuracy.",
+            "Developed a C# console app that automated CSV data processing, reducing manual workload by 80%."
+            ],
+            "responsibilities": [
+            "Created Swagger API endpoints for image uploads and validation.",
+            "Integrated Azure Blob Storage for scalable image storage.",
+            "Built backend functionality using C#/.NET, Docker, and Azure to improve platform performance."
+            ]
+        },
+        {
+            "title": "IT Support Technician, Machine Operator & Warehouse Employee",
+            "type": "",
+            "company": "",
+            "location": "Stockholm, Sweden & Iasi, Romania",
+            "duration": "Prior to Sep 2022",
+            "achievements": [
+            "Gained technical troubleshooting and customer support experience as an IT Support Technician.",
+            "Worked as a heavy machine operator, developing problem-solving skills and attention to detail in high-precision tasks.",
+            "Gained hands-on experience in logistics and teamwork as a warehouse employee, ensuring efficient inventory handling and order fulfillment."
+            ],
+            "responsibilities": []
+        }
+        ]
+    },
+    "skills":{
+        "title": "Skills & Tools",
+        "info": "Hover over icons, most of them offer more information!",
+        "category1": "Programming Languages:",
+        "category2": "Frameworks and Libraries:",
+        "category3": "Databases:",
+        "category4": "Cloud and DevOps:",
+        "category5": "Web Developments and API:",
+        "category6": "Software Development Practices:",
+        "category7": "Tools & Technologies:",
+        "basic": "basic level",
+        "framework": "framework for RESTful API"
+    },
+    "certificates":{
+        "title": "Certificates",      
+        "certificate": [
+            {
+                "title": "IBM Full Stack Developer Professional Certificate",
+                "issued_by": "IBM & Coursera",
+                "description": "Covers JavaScript, HTML, CSS for frontend, and Python for backend development.",
+                "diploma": "Certificate",
+                "diploma_link": "https://coursera.org/share/64aa30aa3bc8bb2397571249467b39f6",
+                "badge": "Badge",
+                "badge_link": "https://www.credly.com/badges/6dccd3e4-dec2-42b3-be6d-a743c1d59c0a/public_url"
+            },
+            {
+                "title": "META Backend Developer Certificate",
+                "issued_by": "META & Coursera",
+                "description": "Covers JavaScript, HTML, CSS for frontend, and Python for backend development.",
+                "diploma": "Certificate",
+                "diploma_link": "https://coursera.org/share/80e8c2180c49bc4aa43af9928a5f017a",
+                "badge": "Badge",
+                "badge_link": "https://www.credly.com/badges/10ce5f0d-0417-494b-86f5-3b454c98b08d/public_url"
+            },
+            {
+                "title": "Microsoft Foundational C#",
+                "issued_by": "Microsoft & freeCodeCamp",
+                "description": "Covers fundamental C# concepts, syntax, and object-oriented programming principles.",
+                "diploma": "Certificate",
+                "diploma_link": "https://www.freecodecamp.org/certification/ionutluca/foundational-c-sharp-with-microsoft"
+                
+            },
+            {
+                "title": "MongoDB C# Developer Path",
+                "issued_by": "MongoDB",
+                "description": "Provides hands-on experience with MongoDB and C# integration for building scalable applications."                
+            },
+            {
+                "title": "Relational Database Certification",
+                "issued_by": "freeCodeCamp",
+                "description": "Covers SQL queries, database design, and normalization techniques.",
+                "diploma": "Certificate",
+                "diploma_link": "https://www.freecodecamp.org/certification/ionutluca/relational-database-v8"
+            },
+            {
+                "title": ".NET Full Stack Developer",
+                "issued_by": "Board Infinity & Coursera",
+                "description": "Covers full stack development using ASP.NET MVC, Blazor, React and JavaScript.",
+                "diploma": "Certificate",
+                "diploma_link": "https://coursera.org/share/495e6275824a8589eae1163967018dc0"
+            },
+            {
+                "title": "Frontend Development",
+                "issued_by": "Scrimba & Coursera",
+                "description": "Focused on frontend development using HTML, CSS and JavaScript.",
+                "diploma": "Certificate",
+                "diploma_link": "https://coursera.org/share/ef5d2661d84709184fcd48c6adbe9970"
+            }
+        ],
+        "more": "More certifications available on my",
+        "profile": "LinkedIn profile"
+    },
+    "education":{
+        "title": "Education",
+        "name": ".NET Developer ",
+        "type": "(Higher Vocational Diploma)",
+        "date": " Sep 2022 - May 2024",
+        "description1": "Focused on development of software, applications or web applications using  C#, .NET, JavaScript, SQL, and MongoDB.",
+        "description2": "Hands-on experience in full-stack development & Agile (Scrum)."
+    },
+    "projects": {
+        "title": "Projects",
+        "project": [
+            {
+                "name": "Gread Reads DataBase",
+                "sub_title": "Full Stack Book Review Web Platform",
+                "tech": "Tech Stack: C#, .NET (Blazor and REST API), React, SQL, Docker containers.",
+                "description1": "Built a full-stack web application with a RESTful API and two user-friendly UIs: one for administrators (built with Blazor) for content and database management, and one for client interaction (built with React/JavaScript).",
+                "description2": "The app enables administrators to perform CRUD operations for managing database content. Clients can add, modify, and delete books and book reviews upon successful registration/login.",
+                "github_link": "https://github.com/IonutLuca86/GreatReadsDatabase",
+                "image_link": "grdb",
+                "alt": "GreatReadsDatabase Project preview",
+                "isOpen": "isOpenGRDB",
+                "setOpen": "setIsOpenGRDB"
+            },
+            {
+                "name": "Little Lemon Restaurant",
+                "sub_title": "Django-based Restaurant Web App",
+                "tech": "Tech Stack: Python, Django, MySql, HTML/CSS",
+                "description1": "Developed a web app with reservations management,menu updates and order.",
+                "description2": "Employees can manage bookings, update restaurant menu and clients can reserve tables or order menu items.",
+                "github_link": "https://github.com/IonutLuca86/littlelemon",
+                "image_link": "littlelemon",
+                "alt": "LittleLemon Project preview",
+                "isOpen": "isOpenLL",
+                "setOpen": "setIsOpenLL"
+            }
+        ],
+        "more": "More projects available on my",
+        "profile": "GitHub Profile"
+    },
+    "contact": {
+        "title": "Contact",
+        "intro": "I appreciate your time and interest in my work.If you have any questions, opportunities, tips, or just want to connect, feel free to reach out. You can do this by using the links here under or you can send me a direct message!",
+        "phone": "Phone number:",
+        "email": "Email address:",
+        "profile": "Profile",
+        "second_intro": "Looking forward to hearing from you!",
+        "success_msg1": "Thank you for your message!",
+        "success_msg2": "I will get back to you shortly.",
+        "your_name": "Your Name:",
+        "your_email": "Your Email:",
+        "your_message": "Your Message:",
+        "send": "Send",
+        "outro": "Thank you for exploring my website!"
+    },
+    "footer": {
+        "rights": "All rights reserved."
+    }  
+      
+}

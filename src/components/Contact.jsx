@@ -4,8 +4,12 @@ import { MdEmail,MdOutlinePhoneIphone } from "react-icons/md";
 import { FaGithub,FaLinkedin  } from "react-icons/fa6";
 
 import './About.css'
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+
+    const {t} = useTranslation();
+    const lang = localStorage.getItem('language') || 'en';
 
     const [values, setValues] = useState({
         user_name: '',
@@ -32,13 +36,13 @@ export default function Contact() {
    
         const newErrors = {};
         if (values.user_name.trim() === '') {
-          newErrors.user_name = 'Name is required';
+          newErrors.user_name = lang == 'sv'? 'Namn är obligatoriskt': "Name is required";
         }
         if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.user_email)) {
-          newErrors.user_email = 'Invalid email address';
+          newErrors.user_email = lang == 'sv'? 'E-post är ogiltig eller saknas':'Invalid email address or missing';
         }
         if (values.message.trim() === '') {
-          newErrors.message = 'Message is required';
+          newErrors.message = lang == 'sv'? 'Meddelande är obligatoriskt': 'Message is required';
         }
     
         setErrors(newErrors);   
@@ -60,10 +64,10 @@ export default function Contact() {
            },10000);
         }, function(error) {
            console.log('FAILED...', error);
-           alert("Failed to send message! Try again!")
+           alert(lang == 'sv'? "Misslyckades att skicka meddelandet! Försök igen!": "Failed to send message! Try again!")
         });
         } else {
-          alert('Please fill in all required fields correctly.');
+          alert(lang == 'sv'? "Vänligen fyll i alla obligatoriska fält korrekt.": 'Please fill in all required fields correctly.');
         }
       }; 
 
@@ -72,42 +76,39 @@ export default function Contact() {
 
     return(
         <div className="container d-flex flex-column justify-content-between align-items-center my-5 ">
-        <h2 className="text-orange">Contact</h2>
+        <h2 className="text-orange">{t('contact.title')}</h2>
         <div className="d-flex flex-column justify-content-between align-item-center mt-5">       
-            <h6 className="text-gray">I appreciate your time and interest in my work. 
-                If you have any questions, opportunities, tips, or just want to connect, 
-                feel free to reach out. You can do this by using the links here under or 
-                you can send me a direct message!</h6>
+            <h6 className="text-gray">{t('contact.intro')}</h6>
                 <div className="d-flex flex-column justify-content-between align-item-center ms-5 mt-3">
-                    <p className="text-blue fs-md"><MdOutlinePhoneIphone size={25} className="me-2"/>Phone number:
+                    <p className="text-blue fs-md"><MdOutlinePhoneIphone size={25} className="me-2"/>{t('contact.phone')}
                     <span className="text-yellow ms-2">+46 76 587 90 94</span>  
                     </p>
-                    <p className="text-blue fs-md"><MdEmail size={25} className="me-2"/>Email address:
+                    <p className="text-blue fs-md"><MdEmail size={25} className="me-2"/>{t('contact.email')}
                     <a href="mailto:ic.luca@outlook.com"  
                     className='text-yellow link-to ms-3'>ic.luca@yahoo.com</a>   
                     </p>
                     <p className="text-blue fs-md"><FaLinkedin  size={25} className="me-2"/>LinkedIn:
                     <a href="https://www.linkedin.com/in/ionut-luca-b4938924b/" target="_blank" rel="noopener noreferrer" 
-                    className='text-yellow link-to ms-3'>LinkedIn Profile</a>   
+                    className='text-yellow link-to ms-3'>LinkedIn {t('contact.profile')}</a>   
                     </p>
                     <p className="text-blue fs-md"><FaGithub size={25} className="me-2"/>GitHub:
                     <a href="https://github.com/IonutLuca86" target="_blank" rel="noopener noreferrer" 
-                    className='text-yellow link-to ms-3'>GitHub Profile</a>   
+                    className='text-yellow link-to ms-3'>GitHub {t('contact.profile')}</a>   
                     </p>
                 </div>
-                <h6 className="text-gray mt-2">Looking forward to hearing from you!</h6>
+                <h6 className="text-gray mt-2">{t('contact.second_intro')}</h6>
         </div>
         <div className="my-5"> 
         {showSuccessMsg ? (
                     <div className="success-message text-green text-center">
-                        <h4>Thank you for your message!</h4>
-                        <p>I will get back to you shortly.</p>
+                        <h4>{t('contact.success_msg1')}</h4>
+                        <p>{t('contact.success_msg2')}</p>
                     </div>
                 ) : (
                 <form onSubmit={handleSubmit} className='d-flex flex-column justify-content-between align-item-center gap-2' 
                         style={{minWidth:'400px'}}>
                     <input type="hidden" name="from_name" value="my CV website" />
-                    <label className="text-gray">Your Name:</label>
+                    <label className="text-gray">{t('contact.your_name')}</label>
                     <input
                         type="text"
                         name="user_name"
@@ -118,7 +119,7 @@ export default function Contact() {
                         onChange={handleChange}
                     />
                     <span className="error-message">{errors.user_name}</span>
-                    <label className="text-gray">Your Email:</label>
+                    <label className="text-gray">{t('contact.your_email')}</label>
                     <input
                         type="email"
                         name="user_email"
@@ -128,7 +129,7 @@ export default function Contact() {
                         onChange={handleChange}
                     />
                     <span className="error-message">{errors.user_email}</span>
-                    <label className="text-gray">Your Message:</label>
+                    <label className="text-gray">{t('contact.your_message')}</label>
                     <textarea
                         name="message"
                         className="text-white"
@@ -142,11 +143,11 @@ export default function Contact() {
                         id="sendBtn"
                         className="btn btn-outline-light"
                     >
-                        Send
+                        {t('contact.send')}
                     </button>
                     </form>)}
             </div>
-        <h4 className="text-green">Thank you for exploring my website!</h4>
+        <h4 className="text-green">{t('contact.outro')}</h4>
     </div>
     ) 
 }

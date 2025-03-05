@@ -11,6 +11,8 @@ import Contact from './components/Contact';
 import { AnimatePresence, motion } from 'framer-motion';
 import { BrowserRouter as Router,Route,Routes, useLocation } from 'react-router-dom'
 import PropTypes from 'prop-types';
+import { useTranslation } from 'react-i18next';
+import { useEffect,useState } from 'react';
 
 
 function AnimatedRoutes() {
@@ -47,11 +49,18 @@ const PageWrapper = ({ children }) => {
 
 function App() {
 
+  const {i18n} = useTranslation();
+  const [lang,setLang] = useState(localStorage.getItem('language') || 'en');
+
+  useEffect(() => {
+    i18n.changeLanguage(lang);
+    localStorage.setItem('language', lang);
+  }, [lang]);
 
   return (
     <Router>
     <div className="page-container">
-      <NavigationBar />
+      <NavigationBar lang={lang} setLang={setLang}/>
       <div className="content">
         <AnimatedRoutes />
       </div>
